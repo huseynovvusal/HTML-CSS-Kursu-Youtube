@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* 
+.qutu1{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+.qutu2{
+    display: inline-block;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+} */
+
+/* span{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    border: 10px solid black;
+    border-left-width: 20px;
+    border-right-width: 20px;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+
+    margin: 30px ;
+
+    padding: 100px;
+} */
+
+
+
+h1{
+    letter-spacing: 10px;
+    /* text-decoration: underline; */
+    text-align: center;
+    padding: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+p{
+    padding: 0 30px;
+    text-align: justify;
+    font-family: serif;
+    /* word-spacing: 10px; */
+    /* text-transform: lowercase; */
+}
+
+.ikon{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 100px;
+    transition: 300ms ease;
+}
+
+/* .ikon:hover{
+    color: blueviolet;
+}
+
+.ikon:active{
+    color: red;
+}
+
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:hover{
+    color: green;
+} */
+
+
+
+
+button,input{
+    outline: none;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 100px;
+    transition: 300ms ease-in;
+    font-size: 20px;
+}
+
+button:hover,input:hover{
+    background-color: rgb(157, 157, 228);
+    /* border: 3px solid rgb(127, 127, 127); */
+    transform: scale(1.05);
+    margin: 0 30px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+p::first-letter{
+    font-size: 50px;
+}
+
+p::first-line{
+    /* color: red; */
+}
+
+p::selection{
+    background-color: #ccc;
+}
+
+
+h1::selection{
+    background-color: none;
+    color: red;
+}
+
+p::after{
+    content: 'Sag ol';
+}
+p::before{
+    content: 'Salam';
+}
+
+
+
+
+
+
+
+
+
+input[value="Button"]{
+    color: red;
+}
+
+
+.qrup .qutu{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+/* .qrup .qutu:first-child {
+
+    background-color: yellow;
+}
+.qrup .qutu:last-child {
+
+    background-color: yellow;
+} */
+
+/* .qrup .qutu:nth-child(1) {
+
+    background-color: yellow;
+} */
+
+.qutu,.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+/* .grup ~ div {
+    bac
+    
+    kground-color: black;
+} */
+
+
+
+.qrup > .qutu{
+    background-color: green;
+}

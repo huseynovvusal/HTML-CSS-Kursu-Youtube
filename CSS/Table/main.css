@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+table,td,tr,th{
+    border: 1px solid  rgb(21, 138, 105);
+    border-spacing: 0;
+    font-family: sans-serif;
+}
+
+th,td{
+    padding: 10px 30px;
+}
+
+tr:nth-child(even){
+    background: rgb(217, 234, 217);
+}
+
+tr:first-child{
+    background: rgb(28, 198, 150);
+}
+
+table{
+    border-radius: 12px;
+    overflow: hidden;
+}

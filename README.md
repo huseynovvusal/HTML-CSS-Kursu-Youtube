@@ -1,3 +1,3 @@
-# HTML CSS Kursu
+[![HTML CSS TAM DƏRS : Responsiv dizayn və Flexbox](https://github.com/huseynovvusal/HTML-CSS-Kursu-Youtube/blob/27edb85660e5ace44d274ef20e9fc19dc5d604b1/HTML%20Course%20THUMBNAIL.jpg)](https://www.youtube.com/watch?v=eecDtXz5i7A)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/eecDtXz5i7A?si=kLwmWjRst46ON8Lv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
